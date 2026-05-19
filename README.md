@@ -175,6 +175,10 @@ Three separate EC2 instances were provisioned in AWS:
 
 ![Nexus Repo](screenshots/nexus-repo.png)
 
+### Slack Notification
+
+![Slack Notify](screenshots/slack-notification.png)
+
 ---
 
 ## 🧪 Jenkins Pipeline Stages
