@@ -29,15 +29,15 @@ The goal of this project is to simulate a **real-world enterprise CI workflow** 
 
 ---
 
-# 🚀 Architecture
+## 🚀 Architecture
 
-## High Level CI Workflow
+### High Level CI Workflow
 
 ![Architecture](screenshots/architecture_diagram.png)
 
 ---
 
-# ⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -52,7 +52,7 @@ The goal of this project is to simulate a **real-world enterprise CI workflow** 
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```bash
 jenkins-sonarqube-nexus-ci/
@@ -91,7 +91,7 @@ jenkins-sonarqube-nexus-ci/
 
 ---
 
-# 🔄 CI Pipeline Flow
+## 🔄 CI Pipeline Flow
 
 ```text
 Developer Commit
@@ -121,7 +121,7 @@ Slack Notification
 
 ---
 
-# 🖥️ Infrastructure Setup
+## 🖥️ Infrastructure Setup
 
 Three separate EC2 instances were provisioned in AWS:
 
@@ -133,86 +133,86 @@ Three separate EC2 instances were provisioned in AWS:
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## AWS EC2 Infrastructure
+### AWS EC2 Infrastructure
 
-![AWS Console](screenshots/aws-console.jpg)
-
----
-
-## Jenkins Pipeline Execution
-
-![Pipeline Stages](screenshots/pipeline-stages.jpg)
+![AWS Console](screenshots/aws-console.png)
 
 ---
 
-## Successful Pipeline Execution
+### Jenkins Pipeline Execution
 
-![Pipeline Success](screenshots/pipeline-success.jpg)
-
----
-
-## SonarQube Dashboard
-
-![SonarQube Main](screenshots/sonarqube-main.jpg)
+![Pipeline Stages](screenshots/pipeline-stages.png)
 
 ---
 
-## SonarQube Quality Gate
+### Successful Pipeline Execution
 
-![SonarQube Status](screenshots/sonarqube-status.jpg)
-
----
-
-## Nexus Repository Manager
-
-![Nexus Home](screenshots/nexus-home.jpg)
+![Pipeline Success](screenshots/pipeline-success.png)
 
 ---
 
-## Uploaded Artifacts in Nexus
+### SonarQube Dashboard
 
-![Nexus Repo](screenshots/nexus-repo.jpg)
+![SonarQube Main](screenshots/sonarqube-main.png)
 
 ---
 
-# 🧪 Jenkins Pipeline Stages
+### SonarQube Quality Gate
 
-## 1. Checkout SCM
+![SonarQube Status](screenshots/sonarqube-status.png)
+
+---
+
+### Nexus Repository Manager
+
+![Nexus Home](screenshots/nexus-home.png)
+
+---
+
+### Uploaded Artifacts in Nexus
+
+![Nexus Repo](screenshots/nexus-repo.png)
+
+---
+
+## 🧪 Jenkins Pipeline Stages
+
+### 1. Checkout SCM
 Fetches source code from GitHub repository.
 
-## 2. Tool Installation
+### 2. Tool Installation
 Ensures Maven, JDK, and Sonar Scanner are available.
 
-## 3. Build
+### 3. Build
 Compiles the application using Maven.
 
-## 4. Test
+### 4. Test
 Executes unit tests.
 
-## 5. Checkstyle Analysis
+### 5. Checkstyle Analysis
 Performs coding standard validation.
 
-## 6. SonarQube Analysis
+### 6. SonarQube Analysis
 Scans source code for:
 - Bugs
 - Vulnerabilities
 - Code smells
 - Technical debt
 
-## 7. Quality Gate
+### 7. Quality Gate
 Ensures code meets defined quality thresholds before proceeding.
 
-## 8. Upload Artifact
+### 8. Upload Artifact
 Publishes generated WAR/JAR files into Nexus Repository.
 
-## 9. Slack Notification
+### 9. Slack Notification
 Sends build success/failure notifications to Slack channels.
 
 ---
 
-# 📊 SonarQube Metrics
+## 📊 SonarQube Metrics
 
 The pipeline integrates SonarQube quality gates to enforce:
 
@@ -227,7 +227,7 @@ SonarQube provides centralized visibility into overall code health.
 
 ---
 
-# 📦 Nexus Repository Usage
+## 📦 Nexus Repository Usage
 
 Nexus Repository is used for:
 
@@ -240,7 +240,7 @@ Generated Maven artifacts are uploaded automatically after successful pipeline e
 
 ---
 
-# 🔔 Slack Integration
+## 🔔 Slack Integration
 
 Slack notifications are configured to provide:
 
@@ -253,7 +253,7 @@ This improves team visibility and rapid issue detection.
 
 ---
 
-# 🎯 Why This Project?
+## 🎯 Why This Project?
 
 This project was built to demonstrate:
 
@@ -270,7 +270,7 @@ It showcases practical DevOps engineering skills commonly expected in production
 
 ---
 
-# 🔐 Security & Best Practices
+## 🔐 Security & Best Practices
 
 - Jenkins credentials stored securely
 - GitHub webhook automation enabled
@@ -281,7 +281,7 @@ It showcases practical DevOps engineering skills commonly expected in production
 
 ---
 
-# 📈 Future Enhancements
+## 📈 Future Enhancements
 
 - Dockerize the application
 - Integrate Kubernetes deployment
@@ -296,7 +296,7 @@ It showcases practical DevOps engineering skills commonly expected in production
 
 ---
 
-# 🧠 Key DevOps Concepts Demonstrated
+## 🧠 Key DevOps Concepts Demonstrated
 
 - Continuous Integration (CI)
 - Infrastructure Provisioning
@@ -311,13 +311,13 @@ It showcases practical DevOps engineering skills commonly expected in production
 
 ---
 
-# 🏁 Conclusion
+## 🏁 Conclusion
 
 This repository demonstrates a production-style Continuous Integration workflow using industry-standard DevOps tools. The implementation focuses on automation, quality validation, artifact management, and scalable CI practices widely adopted in enterprise software delivery pipelines.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 Joseph M J
 
