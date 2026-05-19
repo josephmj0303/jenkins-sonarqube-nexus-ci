@@ -65,7 +65,8 @@ jenkins-sonarqube-nexus-ci/
 ├── userdata/
 │   ├── jenkins.sh
 │   ├── nexus.sh
-│   └── sonarqube.sh
+│   ├── sonarqube.sh
+│   └── sonar-analysis-properties
 │
 ├── docs/
 │   ├── architecture.md
