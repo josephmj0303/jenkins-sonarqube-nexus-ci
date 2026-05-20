@@ -128,9 +128,12 @@ Check:
 ### Slack Alerts Not Working
 
 Verify:
-- Slack webhook URL
+- Jenkins credentials are correct
+- Channel name is valid
+- Webhook or token is active
 - Jenkins Slack plugin configuration
 - Network connectivity
+- Pipeline reaches the post block without syntax errors
 
 ---
 
