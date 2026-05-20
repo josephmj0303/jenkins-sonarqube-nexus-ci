@@ -60,7 +60,7 @@ jenkins-sonarqube-nexus-ci/
 ├── Jenkinsfile
 ├── pom.xml
 ├── settings.xml
-├── README.md
+├── src/
 │
 ├── userdata/
 │   ├── jenkins.sh
@@ -73,6 +73,7 @@ jenkins-sonarqube-nexus-ci/
 │   ├── jenkins-setup.md
 │   ├── sonarqube-setup.md
 │   ├── nexus-setup.md
+│   ├── slack-setup.md
 │   ├── webhook-configuration.md
 │   └── troubleshooting.md
 │
@@ -86,7 +87,9 @@ jenkins-sonarqube-nexus-ci/
 │   ├── nexus-home.jpg
 │   └── nexus-repo.jpg
 │
-└── src/
+├── LICENSE
+├── .gitignore
+└── README.md
 ```
 
 ---
