@@ -1,4 +1,4 @@
-# Continuous Integration Pipeline using Jenkins, SonarQube, Nexus and slack
+# Continuous Integration Pipeline using Jenkins, SonarQube, Nexus and Slack Notification
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-Code%20Quality-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
