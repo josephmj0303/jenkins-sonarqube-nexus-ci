@@ -327,6 +327,8 @@ This repository demonstrates a production-style Continuous Integration workflow 
 ## 👨‍💻 Author
 
 Joseph M J
+
 DevOps engineer portfolio project
+
 AWS | CI | Jenkins | Sonarqube | Nexus | Slack
 
