@@ -318,6 +318,15 @@ It showcases practical DevOps engineering skills commonly expected in production
 
 ---
 
+## 🔒 Source Code Notice
+This repository intentionally excludes application source code:
+
+- To simulate real-world enterprise practices
+- To protect application-level intellectual property
+- To focus this project on DevOps engineering capabilities
+
+---
+
 ## 🏁 Conclusion
 
 This repository demonstrates a production-style Continuous Integration workflow using industry-standard DevOps tools. The implementation focuses on automation, quality validation, artifact management, and scalable CI practices widely adopted in enterprise software delivery pipelines.
